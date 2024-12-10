@@ -18,7 +18,7 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
   padding: 20px;
   width: 100%;
   height: 100%;
@@ -63,20 +63,26 @@ body {
   .calculator {
     width: 100%;
     height: 100%;
-    margin-top: 40px;
+    margin-top: -20px;
   }
   .display {
     width: 98%;
   }
+  .btn {
+    padding: 60px;
+  }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .calculator {
-    width: 100%;
-    height: 100%;
-    margin-top: 40px;
+    width: 70%;
+    height: 85%;
+    margin-top: -40px;
   }
   .display {
-    width: 99%;
+    width: 98.4%;
+  }
+  .btn {
+    padding: 20px;
   }
 }
