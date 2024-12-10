@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -6,6 +11,7 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   font-family: Arial, sans-serif;
+  height: 100%;
 }
 
 .calculator {
@@ -14,16 +20,18 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
+  width: 100%;
+  height: 100%;
 }
-
 .display {
-  width: 93%;
+  width: 95%;
   height: 50px;
   background: black;
   color: #fff;
   text-align: right;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 24px;
   border-radius: 10px;
 }
@@ -33,10 +41,10 @@ body {
   gap: 10px;
 }
 .btn {
-  padding: 20px;
+  padding: 35px;
   background: #f0f0f0;
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s;
@@ -53,10 +61,22 @@ body {
 }
 @media screen and (min-width: 768px) {
   .calculator {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;
   }
   .display {
-    width: 97%;
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .calculator {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+  .display {
+    width: 99%;
   }
 }
